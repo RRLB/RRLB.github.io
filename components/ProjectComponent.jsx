@@ -16,7 +16,7 @@ function ProjectComponent() {
     <div  id='projects' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl uppercase'>Projects</p>
-            <h2>What I've Built</h2>
+            <h2>What I&apos;ve Built</h2>
             <div className='grid md:grid-cols-2 gap 8'>
             <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl p-4 group hover:bg-gradient-to-r from-[#e9c2af] to-[#8f6e5d]'>
                 <div className='aspect-w-16 aspect-h-9'>

@@ -118,7 +118,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-[#8f6e5d] my-4 text-gray-600">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let's build something great together
+                Let&apos;s build something great together
               </p>
             </div>
           </div>
@@ -142,7 +142,7 @@ const Navbar = () => {
             </ul>
             <div className="pt-40">
               <p id="pConnect" className="uppercase tracking-widest  text-gray-600">
-                Let's connect
+                Let&apos;s connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[8-%]  text-[#8f6e5d]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:shadow-gray-800 hover:scale-105 ease-in duration-300">
