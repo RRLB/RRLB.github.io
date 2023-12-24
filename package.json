@@ -1,0 +1,40 @@
+
+{
+  "name": "portfolio-nextjs",
+  "version": "0.1.0",
+  "homepage": "https://rrlb.github.io",
+  "private": true,
+  "scripts": {
+    "predploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@react-pdf/renderer": "^3.1.14",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.0",
+    "blob": "^0.1.0",
+    "latest": "^0.2.0",
+    "next": "13.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.89.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}

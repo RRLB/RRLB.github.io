@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+@layer base {
+  body {
+    @apply bg-[#131f29] text-[#cbd9ec] tracking-wide 
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl
+  }
+  h2 {
+    @apply text-3xl sm:text-4xl py-6 uppercase text-[#8f6e5d]
+  }
+
+  p {
+    @apply tracking-widest text-gray-400
+  }
+
+  li {
+    @apply cursor-pointer
+  }
+
+  button {
+    @apply shadow-xl shadow-gray-950 rounded-xl uppercase hover:bg-gradient-to-r from-[#e9c2af] to-[#8f6e5d] text-gray-600 ease-in duration-300
+  }
+  #liNavBar {
+    @apply hover:scale-105 ease-in duration-200 cursor-pointer
+  }
+  #pConnect {
+    @apply hover:scale-105 ease-in duration-200
+  }
+  /* #about {
+
+  }
+  #contact {
+
+  }
+  #home{
+
+  }
+  #projects{
+    
+  }
+  #skills{
+    
+  } */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding-left: 10px;
+    padding-right: 30px;
+    /* background-color: #131f29; */
+    
+  }
+
+  .about {
+    position: relative;
+    z-index: 2; /* Lower z-index to make it appear behind the nav bar */
+  }
+
+  .video-container {
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1; /* Lower z-index to make it appear behind the nav bar */
+  }
+
+
+
+}
