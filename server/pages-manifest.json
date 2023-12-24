@@ -1,0 +1,11 @@
+{
+  "/_document": "pages/_document.js",
+  "/crypto": "pages/crypto.html",
+  "/docform": "pages/docform.html",
+  "/": "pages/index.html",
+  "/shg": "pages/shg.html",
+  "/netflix": "pages/netflix.html",
+  "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
+  "/404": "pages/404.html"
+}
